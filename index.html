@@ -47,10 +47,16 @@
           <a class="nav-link js-scroll-trigger" href="#guitar">Electric Guitar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#hybrid">Hybrid Vehicle Powertrain Simulation</a>
+          <a class="nav-link js-scroll-trigger" href="#hybrid">Hybrid Simulation</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#lathe">Lathe Data</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#crash">Car Crash Injury Prediction</a>
+          <a class="nav-link js-scroll-trigger" href="#platform">Self-Leveling Platform</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#crash">Crash Injury Prediction</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#shirt">Handmade Shirt</a>
@@ -136,6 +142,25 @@
             <p>A sport sedan powertrain simulation that competes with indusrty standard vehicles while maintaining reasonable component prices.</p>
 			<div class="subheading mb-3">My Work</div>
             <p>Ran simulations in MATLAB and Simulink to select components including electric machines, batteries, engine, and gear ratios. Worked on Simulink simulator and fuel efficient electromechanical control strategy.</p>
+          </div>
+        </div>
+	  </div>
+    </section>
+	
+	<hr class="m-0">
+	
+	    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="lathe">
+      <div class="w-100">
+        <h2 class="mb-5">Lathe Data Collection to Predict Tool Life</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+			<img src="img/powertrain_diagram.png" alt="system diagram" align="middle" width="400">
+            <div class="subheading mb-3">The Goal</div>
+            <p>Collect data from a CNC lathe to use in a machine learning model with the goal of improving tool life predictions to be more precise than current tabulated methods. </p>
+			<div class="subheading mb-3">The Final Product</div>
+            <p>A data collection and feedback system that collects vibration and metadata from the lathe and uses a machine learning model to predict remaining tool life, then adjusts lathe parameters to ensure the tool lasts through the full cut. More information can be found in the <a href="https://www.astm.org/DIGITAL_LIBRARY/JOURNALS/SSMS/PAGES/SSMS20190017.htm">paper</a> published for the project.</p>
+			<div class="subheading mb-3">My Work</div>
+            <p>Designed protective enclosure for a vibration sensor for the tool, created a Python script on a Raspberry Pi to collect data from the vibration sensor and the lathe itself, combien the data, and send it to the cloud based learning model. Ran cuts to collect training data for the machine learning model. </p>
           </div>
         </div>
 	  </div>
